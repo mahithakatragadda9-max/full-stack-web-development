@@ -1,0 +1,53 @@
+<!doctype html><html><head><meta charset="utf-8"><title>EcoTrack UI Preview</title><style>:root{--g:#1b7f4b;--gd:#14603a;--gl:#e8f5ee;--bd:#d6e4db;--tx:#1f2d26;--mu:#5d6f65}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,"Segoe UI",Arial,sans-serif;color:var(--tx);background:#f5faf7}
+a{color:var(--gd)}
+.layout{display:flex;min-height:100vh}
+.sidebar{width:230px;background:var(--gd);color:#fff;padding:18px 12px;display:flex;flex-direction:column;gap:4px;position:sticky;top:0;height:100vh}
+.brand{font-size:1.3rem;font-weight:700;padding:0 10px 14px}
+.sidebar a,.sidebar button{color:#fff;text-decoration:none;padding:10px 12px;border-radius:8px;background:none;border:0;text-align:left;font:inherit;cursor:pointer;display:block}
+.sidebar a:hover,.sidebar button:hover,.sidebar a.active{background:rgba(255,255,255,.18)}
+.sidebar .user{font-size:.85rem;opacity:.85;padding:8px 12px;margin-top:auto}
+main{flex:1;padding:24px;max-width:1100px;width:100%;margin:0 auto}
+h1{margin-top:0;color:var(--gd)}
+.hero{background:linear-gradient(135deg,var(--g),var(--gd));color:#fff;border-radius:14px;padding:32px;margin-bottom:20px}
+.hero h1{color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:16px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card,.stat{background:#fff;border:1px solid var(--bd);border-radius:12px;padding:16px}
+.stat b{display:block;font-size:1.8rem;color:var(--g)}
+.stat span{color:var(--mu);font-size:.9rem}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.muted{color:var(--mu);font-size:.88rem}
+.btn{background:var(--g);color:#fff;border:0;border-radius:8px;padding:10px 16px;font:inherit;cursor:pointer;text-decoration:none;display:inline-block}
+.btn:hover{background:var(--gd)}
+.btn:disabled{opacity:.6;cursor:wait}
+.btn.light{background:#fff;color:var(--gd);border:1px solid var(--bd)}
+.btn.danger{background:#c0392b}
+.btn.small{padding:6px 12px;font-size:.9rem}
+form.box{background:#fff;border:1px solid var(--bd);border-radius:12px;padding:20px;max-width:560px;display:grid;gap:12px}
+label{display:grid;gap:4px;font-weight:600;font-size:.92rem}
+input,select,textarea{font:inherit;padding:9px 10px;border:1px solid var(--bd);border-radius:8px;width:100%;background:#fff}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--g);border-color:transparent}
+textarea{min-height:90px;resize:vertical}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px;align-items:end}
+.filters label{flex:1;min-width:140px}
+.badge{padding:3px 10px;border-radius:99px;font-size:.78rem;font-weight:700;white-space:nowrap}
+.pending{background:#fff3cd;color:#8a6100}
+.in-progress{background:#dbeafe;color:#1d4ed8}
+.resolved{background:#d1f5df;color:#116b3a}
+.rejected{background:#fde0de;color:#a52a1f}
+.state{text-align:center;padding:28px;color:var(--mu);background:#fff;border:1px dashed var(--bd);border-radius:12px}
+.error{color:#a52a1f;background:#fde0de;border-radius:8px;padding:10px;border:0}
+.bar{display:flex;align-items:center;gap:8px;margin:6px 0;font-size:.9rem}
+.bar i{display:block;height:10px;background:var(--g);border-radius:5px}
+.notes{background:var(--gl);border-radius:8px;padding:8px 10px;margin:8px 0;font-size:.9rem}
+details{margin-top:8px;font-size:.85rem}
+@media(max-width:800px){
+  .layout{flex-direction:column}
+  .sidebar{width:100%;height:auto;position:static;flex-direction:row;flex-wrap:wrap;align-items:center}
+  .sidebar .user{margin:0 0 0 auto}
+  main{padding:16px}
+}
+
+body{font-size:15px} main{max-width:none;padding:30px 36px} .hero{padding:34px 38px}.hero p{max-width:760px;line-height:1.65}.preview-note{font-size:12px;color:#5d6f65;margin-top:22px}.stat{min-height:100px}.card h3{margin-top:4px}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.box{margin-top:12px}.sidebar{flex-shrink:0}.sidebar .brand{margin-bottom:10px}.bar i{background:#2d9b62}.tagline{color:#d8f2e3;font-size:13px;padding:0 10px 15px}.badge{display:inline-block}.guide-list{line-height:1.65}.guide-list li{margin:5px 0}.metric-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}.stat span{display:block;margin-top:5px}.report-meta{line-height:1.6}.pill{display:inline-block;padding:4px 10px;border-radius:20px;background:#e8f5ee;color:#14603a;font-size:12px;font-weight:700}.filters{margin:18px 0}.smalltext{font-size:13px}.tablelike{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:8px;align-items:center}.tablelike div{padding:10px;border-bottom:1px solid #d6e4db}.adminstats{grid-template-columns:repeat(5,1fr)}@page{size:1365px 950px;margin:0}</style></head><body><div class="layout"><aside class="sidebar"><div class="brand">🌿 EcoTrack</div><div class="tagline">Smart Waste Management</div><a class="" href="#">🏠 Home</a><a class="" href="#">🌍 Public Reports</a><a class="" href="#">♻️ Recycling Guide</a><a class="" href="#">📋 My Reports</a><a class="" href="#">📝 New Report</a><a class="" href="#">🛠️ Admin Panel</a><div class="user">Demo Resident</div><button>🚪 Log out</button></aside><main><div class="hero"><h1>🌿 EcoTrack</h1><p>Smart Waste Management and Recycling Platform. Report waste problems in your area, track their resolution and learn how to recycle better.</p><a class="btn light" href="#new">Report waste</a> &nbsp; <a class="btn light" href="#public">View public reports</a></div><h2>Community overview</h2><div class="grid"><div class="stat"><b>24</b><span>Total reports</span></div><div class="stat"><b>8</b><span>Pending</span></div><div class="stat"><b>6</b><span>In Progress</span></div><div class="stat"><b>9</b><span>Resolved</span></div><div class="stat"><b>1</b><span>Rejected</span></div><div class="stat"><b>38%</b><span>Resolution rate</span></div></div><div class="card"><h3>Reports by category</h3><div class="bar"><span style="width:80px">Plastic</span><div style="flex:1;background:#e8f5ee;border-radius:5px"><i style="width:85%"></i></div><span>8</span></div><div class="bar"><span style="width:80px">Organic</span><div style="flex:1;background:#e8f5ee;border-radius:5px"><i style="width:65%"></i></div><span>6</span></div><div class="bar"><span style="width:80px">Paper</span><div style="flex:1;background:#e8f5ee;border-radius:5px"><i style="width:45%"></i></div><span>4</span></div><div class="bar"><span style="width:80px">E-Waste</span><div style="flex:1;background:#e8f5ee;border-radius:5px"><i style="width:32%"></i></div><span>3</span></div></div><h2>How it works</h2><div class="cards"><div class="card"><h3>1. Report</h3><p>Residents submit a waste problem with its location.</p></div><div class="card"><h3>2. Review</h3><p>Administrators review reports and update their status.</p></div><div class="card"><h3>3. Track</h3><p>Everyone can follow progress until it is resolved.</p></div></div><p class="preview-note">UI preview • illustrative sample data • not a live connected database</p></main></div></body></html>

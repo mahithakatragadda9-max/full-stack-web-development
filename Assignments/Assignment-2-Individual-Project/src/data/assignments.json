@@ -1,0 +1,14 @@
+[
+  { "id": 1, "title": "Binary Tree Traversal Program", "subject": "Data Structures", "dueDate": "2026-10-15", "priority": "High", "status": "In Progress" },
+  { "id": 2, "title": "Linked List Lab Report", "subject": "Data Structures", "dueDate": "2026-09-28", "priority": "Medium", "status": "Completed" },
+  { "id": 3, "title": "A* Search Implementation", "subject": "Artificial Intelligence", "dueDate": "2026-10-20", "priority": "High", "status": "Pending" },
+  { "id": 4, "title": "Neural Network Case Study", "subject": "Artificial Intelligence", "dueDate": "2026-11-02", "priority": "Medium", "status": "Pending" },
+  { "id": 5, "title": "Responsive Portfolio Website", "subject": "Web Development", "dueDate": "2026-10-12", "priority": "High", "status": "In Progress" },
+  { "id": 6, "title": "React To-Do App", "subject": "Web Development", "dueDate": "2026-10-05", "priority": "Low", "status": "Completed" },
+  { "id": 7, "title": "ER Diagram for Library System", "subject": "Database Management Systems", "dueDate": "2026-10-10", "priority": "Medium", "status": "Completed" },
+  { "id": 8, "title": "SQL Joins Practice Sheet", "subject": "Database Management Systems", "dueDate": "2026-10-25", "priority": "Low", "status": "Pending" },
+  { "id": 9, "title": "Subnetting Worksheet", "subject": "Computer Networks", "dueDate": "2026-10-18", "priority": "Medium", "status": "In Progress" },
+  { "id": 10, "title": "TCP vs UDP Comparison Report", "subject": "Computer Networks", "dueDate": "2026-11-05", "priority": "Low", "status": "Pending" },
+  { "id": 11, "title": "Normalization Assignment", "subject": "Database Management Systems", "dueDate": "2026-11-08", "priority": "High", "status": "Pending" },
+  { "id": 12, "title": "Sorting Algorithms Analysis", "subject": "Data Structures", "dueDate": "2026-10-30", "priority": "Medium", "status": "In Progress" }
+]
